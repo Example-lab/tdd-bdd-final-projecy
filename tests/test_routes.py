@@ -33,7 +33,7 @@ from service.common import status
 from service.models import db, init_db, Product
 from tests.factories import ProductFactory
 from urllib.parse import quote_plus
-import app
+
 # Disable all but critical errors during normal test run
 # uncomment for debugging failing tests
 # logging.disable(logging.CRITICAL)
